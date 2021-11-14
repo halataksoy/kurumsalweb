@@ -1,0 +1,5 @@
+kurumsalwebdata -> sunucu adı
+batı abd2 -> konum
+kurumsalsqladmin -> sunucu yöneticisi oturum açma bilgileri
+kurumsal123. -> şifre
+KurumsalWebDb -> veritabanı adı

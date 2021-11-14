@@ -1,0 +1,12 @@
+﻿@model IEnumerable<KurumsalWeb.Models.Model.Kategori>
+
+@using KurumsalWeb.Helper;
+<ul class="cat">
+    @foreach (var item in Model)
+    {
+        <li><i class="icon-angle-right"></i><a href="/BlogPost/@SeoHelper.ToSeoUrl(item.KategoriAd).ToLower()/@item.KategoriId">@item.KategoriAd</a><span> (@item.Blogs.Count())</span></li>
+        //countlı olan hangi kategori de kaç tane varsa bana kayıtları getir demek 
+    }
+
+
+</ul>
